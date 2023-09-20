@@ -21,14 +21,15 @@ Step 6: Send SMS and Display details give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
-~~
+~~~
 /*
 Program to create and design an android application Send SMS using Intent.
-Developed by: POOJA V
-Registeration Number : 212221040122
+Developed by: MEHANTHYKA D
+Registeration Number : 212221040105
 */
-~~
+~~~
 ## Android Manifest File:
+~~~
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools">
@@ -56,9 +57,9 @@ xmlns:tools="http://schemas.android.com/tools">
 </application>
 
 </manifest>
-
+~~~
 ## Activity_xml File:
-~~
+~~~
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -128,9 +129,9 @@ tools:context=".MainActivity">
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/number" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-~~
+~~~
 ## MainActivity.java File:
-~~
+~~~
 package com.example.smsintent;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -186,7 +187,7 @@ private void sendSMS(){
     }
 }
 }
-~~
+~~~
 ## OUTPUT:
 ![image](https://github.com/mehanthyka/smsintent/assets/127507580/9e0fe5a2-2ceb-4d9b-90c5-9231e2aefc81)
 ![image](https://github.com/mehanthyka/smsintent/assets/127507580/ed0c44ca-d135-4b4d-af9a-cdd534e85728)
